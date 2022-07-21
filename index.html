@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineSweeper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="initGame()">
+    <div class="wrapper">
+        <h1>MineSweeper</h1>
+        <p class="lives">3 lives left</p>
+        <!-- <button id="button-stop">Stop</button> -->
+        <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+    </div> 
+    <!-- <div class="level"> -->
+        <!-- <button onclick="chooseLevel(1)" onclick="initGame()">Easy</button> <button onclick="chooseLevel(2)" onclick="initGame()">Normal</button> <button onclick="chooseLevel(3)" onclick="initGame()">Hard</button> -->
+    <!-- </div> -->
+    <div>
+        <table class="board"></table>
+    </div>
+    <h2 class="msg"></h2>
+    <button class="button" id="button-reset">Reset</button>
+    <script src="js/utils.js"></script>
+    <script src="js/app.js"></script>
+    <!-- <script src="js/stopWatch.js"></script> -->
+</body>
+
+</html>
